@@ -1,0 +1,33 @@
+/* TODO: fazer uma media query pra quando passa 
+  o mouse em cima do nav
+  ele ascender como o botao
+*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 6em;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  margin: 0 40px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: "Playfair Display", normal;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+nav a:hover {
+  color: #ffc107;
+}
+
+.logo {
+  font-family: "Clicker Script", normal;
+  font-size: 35px;
+}

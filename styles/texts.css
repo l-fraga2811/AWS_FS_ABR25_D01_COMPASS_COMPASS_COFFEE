@@ -1,0 +1,39 @@
+.hero-text {
+  font-family: "Playfair Display", normal;
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.hero-title {
+  font-family: "Clicker Script", normal;
+  font-size: 280px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+#subtext {
+    letter-spacing: 2px;
+    line-height: 1.75;
+    font-size: 26px;
+    padding-bottom: 1.5rem;
+}
+
+.gray-text {
+    color: #707070;
+}
+
+.coffee-color {
+    color:#603809;
+}
+
+.playfair-title {
+    font-family: "Playfair Display", normal;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+

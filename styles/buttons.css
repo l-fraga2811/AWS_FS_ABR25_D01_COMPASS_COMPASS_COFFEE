@@ -1,0 +1,18 @@
+.order-btn {
+    background-color: #ffc107;
+    color: #1e1e1e;
+    padding: 16px 35px;
+    border: none;
+    border-radius: 28px;
+    font-weight: bold;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Playfair Display", normal;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: inset 0 0 0.7em #ffc107, 0 0 0.7em #ffc107;
+  }
+  
+  .order-btn:hover {
+    background-color: #e0a800;
+  }
