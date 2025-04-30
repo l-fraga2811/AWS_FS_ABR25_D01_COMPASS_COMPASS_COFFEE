@@ -1,16 +1,12 @@
-/* TODO: fazer uma media query pra quando passa 
-  o mouse em cima do nav
-  ele ascender como o botao
-*/
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 6em;
+  padding: 21px 93px;
   background-color: transparent;
   position: fixed;
   width: 100%;
+  z-index: 999;
 }
 
 nav a {
@@ -19,8 +15,8 @@ nav a {
   text-decoration: none;
   transition: color 0.3s;
   font-family: "Playfair Display", normal;
-  font-size: 16px;
-  font-weight: 100;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 nav a:hover {
@@ -30,4 +26,5 @@ nav a:hover {
 .logo {
   font-family: "Clicker Script", normal;
   font-size: 35px;
+  font-weight: 400;
 }

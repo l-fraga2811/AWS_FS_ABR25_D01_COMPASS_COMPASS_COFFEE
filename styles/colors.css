@@ -1,0 +1,30 @@
+.gray-text {
+  color: #707070;
+}
+
+.coffee-color {
+  color: #603809;
+}
+
+#p-order-list {
+  font-size: 24px;
+}
+
+#coffee-price {
+  font-weight: 700;
+  font-family: "Playfair Display", normal;
+  font-size: 18px;
+}
+
+#coffee-description {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Playfair Display", normal;
+}
+
+#coffee-title {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Playfair Display", normal;
+}
+
