@@ -26,29 +26,10 @@ section {
   overflow-x: hidden;
 }
 
-.menu-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.menu-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  gap: 2rem;
-}
-.menu-item li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: #f9c06a 1px solid;
-  background-color: #f9c06a28;
+.gray-text {
+  color: #707070;
 }
 
-#menu {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.coffee-color {
+  color: #603809;
 }
