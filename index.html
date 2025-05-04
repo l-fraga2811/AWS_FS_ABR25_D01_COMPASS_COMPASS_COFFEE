@@ -10,15 +10,23 @@
     <link rel="stylesheet" href="styles/texts.css" />
     <link rel="stylesheet" href="styles/media-query.css" />
     <link rel="stylesheet" href="styles/buttons.css" />
-    <link rel="stylesheet" href="styles/home.css" />
-    <link rel="stylesheet" href="styles/intro.css" />
+    <link rel="stylesheet" href="styles/home-pg.css" />
+    <link rel="stylesheet" href="styles/intro-pg.css" />
     <link rel="stylesheet" href="styles/colors.css" />
-    <link rel="stylesheet" href="styles/menu.css" />
+    <link rel="stylesheet" href="styles/menu-pg.css" />
+    <link rel="stylesheet" href="styles/table-pg.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/coffee-cup-pg.css" />
+    <link rel="stylesheet" href="styles/feedback-pg.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -48,7 +56,6 @@
         </div>
       </section>
 
-      
       <section class="intro-section">
         <div class="intro-container">
           <h2 class="coffee-color section-title">Discover the best coffee</h2>
@@ -59,7 +66,14 @@
             There is no doubt that you will enjoy this coffee more than others
             you have ever tasted.
           </p>
-          <button class="main-button" id="order-btn" width="134px" height="48px">Learn More</button>
+          <button
+            class="main-button"
+            id="learn-more-btn"
+            width="134px"
+            height="48px"
+          >
+            Learn More
+          </button>
 
           <div class="coffee-splash-img" width="48rem" height="48rem">
             <img src="../public/splash.png" alt="splash" id="splash-img" />
@@ -67,7 +81,7 @@
         </div>
 
         <div id="coffee-cup-img">
-          <img src="../public/coffee-cup.jpg" alt="coffee-cup"/>
+          <img src="../public/coffee-cup.jpg" alt="coffee-cup" />
         </div>
       </section>
 
@@ -75,24 +89,117 @@
         <h1 class="coffee-color section-title menu-title">
           Enjoy a new blend of coffee style
         </h1>
-        <p class="section-description gray-text p-order-list" >
+        <p class="section-description gray-text p-order-list">
           Explore all flavours on our menu with us. There is always a new worth
           experiencing
         </p>
-        <!-- TODO: CONFIGURAR LISTA -->
+        <!-- TODO: fazer dinamicamente com all-items.json -->
         <div class="menu-items">
           <div class="menu-item">
             <li>
               <img src="../public/espresso.jpg" alt="coffee-cup" />
-              <h1 class="coffee-color" id="coffee-title">Espresso</h1>
-              <p class="gray-text" id="coffee-description">description</p>
+              <h1 class="coffee-color menu-title" id="coffee-title">
+                Espresso
+              </h1>
+              <p class="gray-text" id="coffee-description">
+                Coffee 35% | Milk 65%
+              </p>
               <p class="coffee-color" id="coffee-price">R$2.50</p>
               <button class="main-button" id="order-btn">Order now</button>
             </li>
           </div>
         </div>
       </section>
-      
+      <section class="table-section">
+        <div class="table-container">
+          <!-- TODO: fazer dinamicamente com all-items.json -->
+          <div class="table-filters">
+            <button class="main-button" id="filter-btn">Filter</button>
+            <button class="main-button" id="filter-btn">Filter</button>
+            <button class="main-button" id="filter-btn">Filter</button>
+            <button class="main-button" id="filter-btn">Filter</button>
+            <button class="main-button" id="filter-btn">Filter</button>
+          </div>
+          <div>
+            <table class="table coffee-color">
+              <thead>
+                <tr>
+                  <th>Item</th>
+                  <th>Type</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody class="table-body">
+                <tr>
+                  <td>Espresso</td>
+                  <td>Hot Beverage</td>
+                  <td>R$2.50</td>
+                </tr>
+                <tr>
+                  <td>tes</td>
+                  <td>Hot e</td>
+                  <td>R$2.50000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <section class="coffee-section">
+        <div class="coffee-content">
+          <h1>Get a chance to have an Amazing morning</h1>
+          <p>
+            We are giving you are one time opportunity to experience a better
+            life with coffee.
+          </p>
+          <button class="main-button">Order Now</button>
+        </div>
+        <div class="coffee-image">
+          <img src="../public/coffee-cup2.png" alt="Coffee Cup" />
+        </div>
+      </section>
+      <section class="feedback-section">
+        <div>
+          <div>
+            <h1 class="coffee-color section-title">
+              Our coffee perfection feedback
+            </h1>
+            <p class="section-description gray-text">
+              Our customers has amazing things to say about us
+            </p>
+          </div>
+          <div class="feedback-content">
+            <img src="../public/splash.png" alt="splash1" id="splash-img1" />
+            <button class="main-button" id="left-btn-feedback">
+              <img src="../public/vector-left.png" alt="" />
+            </button>
+            <div>
+              <img src="../public/aspas.png" alt="aspas" id="aspas-img" />
+            </div>
+            <p class="gray-text feedback-text">
+              This café has become my sanctuary. Whether it’s the smooth
+              espresso to start my day or the cozy environment that helps me
+              focus during meetings, this place has it all. The staff is
+              friendly, and the atmosphere is perfect for getting things done or
+              taking a relaxing break. I highly recommend it to anyone looking
+              for a great cup of coffee and a space that makes work feel just a
+              little bit easier.
+            </p>
+            <h1 class="coffee-color feedback-name">John Doe</h1>
+            <p class="gray-text feedback-role">Project Manager</p>
+            <div class="feedback-img">
+              <img
+                src="../public/feedback-img.jpg"
+                alt="feedback-img-placeholder"
+              />
+            </div>
+            <button class="main-button" id="right-btn-feedback">
+              <img src="../public/vector-right.png" alt="" />
+            </button>
+            <img src="../public/splash.png" alt="splash2" id="splash-img2" />
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>footer</footer>
