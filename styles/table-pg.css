@@ -83,6 +83,7 @@
   width: 100%;
   overflow-y: auto;
   max-height: 500px;
+  color: #968162;
 }
 
 .table-body tr {

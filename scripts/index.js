@@ -158,7 +158,7 @@ function updateTable(items) {
   items.forEach((item) => {
     const row = document.createElement("tr");
 
-    const formattedPrice = `R$${item.price.toFixed(2)}`;
+    const formattedPrice = `R$ ${item.price.toFixed(2)}`;
 
     row.innerHTML = `
             <td>${item.name}</td>
