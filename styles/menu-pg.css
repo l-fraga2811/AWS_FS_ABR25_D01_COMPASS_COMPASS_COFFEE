@@ -15,23 +15,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 .menu-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  gap: 20px;
+  text-align: center;
 }
 .menu-item li {
   position: relative;
   display: flex;
-  height: 364px;
+  height: 388px;
   width: 280px;
   justify-content: start;
   align-items: center;
   flex-direction: column;
-  border: #fde2b9 2px solid;
+  border: #fde2b9 1px solid;
+  border-top: none;
   background-color: #fff9f1;
 }
 .menu-item li img {
