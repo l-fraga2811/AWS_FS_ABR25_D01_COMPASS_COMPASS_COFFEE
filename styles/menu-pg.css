@@ -3,16 +3,14 @@
   justify-content: start;
   align-items: center;
   background-color: #fffefc;
-  height: 100vh;
+  height: 622px;
   padding: 0 93px;
   overflow-x: hidden;
-
+  overflow-y: hidden;
 }
-/* TODO: FAZER SESSAO PARAR DE SCROLLAR */
 .menu-title {
   margin-bottom: 16px;
 }
-
 .menu-items {
   display: flex;
   justify-content: center;
@@ -26,14 +24,20 @@
   gap: 20px;
 }
 .menu-item li {
+  position: relative;
   display: flex;
-  height: 388px;
+  height: 364px;
   width: 280px;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
-  border: #f9c06a 1px solid;
-  background-color: #f9c06a28;
+  border: #fde2b9 2px solid;
+  background-color: #fff9f1;
+}
+.menu-item li img {
+  width: 280px;
+  height: 222px;
+  object-fit: cover;
 }
 .p-order-list {
   font-size: 20px;
@@ -52,10 +56,19 @@
   font-weight: 700;
   font-family: "Playfair Display", normal;
   font-size: 18px;
+  margin-bottom: 18px;
 }
 
 #coffee-description {
   font-size: 16px;
   font-weight: 400;
   font-family: "Playfair Display", normal;
+  margin-bottom: 6px;
+}
+#coffee-title {
+  font-family: "Playfair Display", normal;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  margin-top: 14px;
 }

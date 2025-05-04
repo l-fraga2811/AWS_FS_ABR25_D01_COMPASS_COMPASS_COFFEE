@@ -4,8 +4,11 @@
   box-sizing: border-box;
 }
 
+*:not(table){
+  font-family: "Playfair Display", normal;
+}
+
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   background-color: #fffefc;
 }
@@ -14,6 +17,7 @@ html,
 body {
   overflow-x: hidden;
 }
+
 section {
   display: flex;
   flex-direction: column;
@@ -24,6 +28,10 @@ section {
   
   padding: 0 93px;
   overflow-x: hidden;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
 .gray-text {
