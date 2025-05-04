@@ -267,6 +267,43 @@ function checkSubscriptionStatus() {
   }
 }
 
+function handleHeaderScroll() {
+  const header = document.querySelector("header");
+  const homeSection = document.getElementById("home-page");
+  let lastScrollTop = 0;
+
+  function isInHomeSection() {
+    if (!homeSection) return false;
+
+    const rect = homeSection.getBoundingClientRect();
+    return rect.top <= 0 && rect.bottom > 0;
+  }
+
+  function updateHeaderState() {
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (!isInHomeSection()) {
+      header.classList.add("with-background");
+    } else {
+      header.classList.remove("with-background");
+    }
+
+    if (scrollTop > lastScrollTop && scrollTop > 100) {
+      header.classList.add("hide");
+      header.classList.remove("show");
+    } else {
+      header.classList.remove("hide");
+      header.classList.add("show");
+    }
+
+    lastScrollTop = scrollTop;
+  }
+
+  window.addEventListener("scroll", updateHeaderState);
+
+  updateHeaderState();
+}
+
 async function init() {
   const allItems = await fetchItems();
   const feedbacks = await fetchFeedbacks();
@@ -288,6 +325,8 @@ async function init() {
   if (subscribeBtn) {
     subscribeBtn.addEventListener("click", validateAndSubscribe);
   }
+
+  handleHeaderScroll();
 }
 
 document.addEventListener("DOMContentLoaded", init);
