@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 374px;
-  background: url("../public/background-contact.jpg") no-repeat center/cover;
+  background: url("../images/background-contact.jpg") no-repeat center/cover;
   box-shadow: inset 200px 200px 200px 200px #603709d0;
   display: flex;
   overflow-x: visible;
@@ -63,7 +63,6 @@
   background-color: #e89d23;
 }
 
-/* Estilos para a interface de usuário inscrito */
 .subscribed-info {
   display: flex;
   justify-content: space-between;
@@ -95,7 +94,6 @@
   background-color: #d32f2f;
 }
 
-/* Estilos para mensagens de feedback de inscrição */
 .subscription-message {
   margin-top: 15px;
   padding: 10px 15px;

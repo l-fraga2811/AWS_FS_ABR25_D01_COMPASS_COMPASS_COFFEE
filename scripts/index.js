@@ -187,14 +187,14 @@ function validateAndSubscribe() {
   const isValid = emailRegex.test(emailInput.value);
 
   if (isValid) {
-    messageElement.textContent = "Inscrição realizada com sucesso!";
+    messageElement.textContent = "Subscribed successfully!";
     messageElement.classList.add("success-message");
 
     localStorage.setItem("subscribedEmail", emailInput.value);
 
     updateSubscriptionUI(emailInput.value);
   } else {
-    messageElement.textContent = "Por favor, insira um e-mail válido.";
+    messageElement.textContent = "Please enter a valid email.";
     messageElement.classList.add("error-message");
   }
 
@@ -228,7 +228,7 @@ function cancelSubscription() {
   const contactSection = document.querySelector(".contact-section");
   const messageElement = document.createElement("div");
   messageElement.className = "subscription-message";
-  messageElement.textContent = "Inscrição cancelada com sucesso!";
+  messageElement.textContent = "Subscription canceled successfully!";
   messageElement.classList.add("info-message");
 
   contactSection.querySelector(".subscription-message")?.remove();
@@ -250,8 +250,8 @@ function updateSubscriptionUI(email) {
 
   subscribeBox.innerHTML = `
         <div class="subscribed-info">
-            <span>Inscrito com: ${email}</span>
-            <button class="cancel-btn">Cancelar inscrição</button>
+            <span>Inscribed with: ${email}</span>
+            <button class="cancel-btn">Cancel subscription</button>
         </div>
     `;
 
