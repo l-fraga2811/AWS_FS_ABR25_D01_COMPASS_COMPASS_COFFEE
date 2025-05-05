@@ -1,3 +1,5 @@
+## Designed for 1366x768 and lower resolution devices
+
 # Compass Coffee
 
 The first technical challenge made to consolidate the content learned during the weeks of the Scholarship Programs.\
