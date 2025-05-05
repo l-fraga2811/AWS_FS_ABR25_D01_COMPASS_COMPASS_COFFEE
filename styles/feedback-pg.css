@@ -73,11 +73,13 @@
   position: absolute;
   top: 50%;
   left: -41px;
+  border-radius: 16px;
 }
 #right-btn-feedback {
   position: absolute;
   top: 50%;
   right: -41px;
+  border-radius: 16px;
 }
 
 #splash-img1 {

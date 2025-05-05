@@ -14,7 +14,7 @@
   align-items: start;
   padding: 0;
   width: 85%;
-  z-index: 999;
+  z-index: 1;
 }
 .section-title {
   font-family: "Playfair Display", normal;
