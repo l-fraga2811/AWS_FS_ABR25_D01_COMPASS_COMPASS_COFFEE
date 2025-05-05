@@ -1,5 +1,8 @@
 ## Designed for 1366x768 and lower resolution devices
 
+## Access the website 📱
+https://compass-coffee-two.vercel.app
+
 # Compass Coffee
 
 The first technical challenge made to consolidate the content learned during the weeks of the Scholarship Programs.\
@@ -44,8 +47,6 @@ To use it, choose a folder where it will be cloned or repository, open the / cmd
 git clone https://github.com/l-fraga2811/AWS_FS_ABR25_D01_COMPASS_COMPASS_COFFEE.git
 ```
 
-## Access the website 📱
-https://compass-coffee-two.vercel.app
 
 
 [HTML5]: https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=HTML5&logoColor=white
